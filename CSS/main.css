@@ -4,6 +4,8 @@ html,body{
     height: 100%;
 }
 
+/* Navigation ---------------------------------------- */
+
 .navigation{
     margin-bottom: 0;
     opacity: 0.8;
@@ -19,15 +21,19 @@ html,body{
   text-align: center;
 }
 
+
+
+
+/* Index --------------------------------------------- */
+
 .indexMain{
-    height:100%;
+    height:200%;
 }
 
 .indexFirstSection{
-    height:calc(100%);
+    height:50%;
     margin: 0;
-    padding: 0;
-    overflow: auto;    
+    padding: 0; 
     position: relative;
     background-image: url(../Images/OAI.jpg);
     background-repeat: no-repeat;
@@ -36,10 +42,9 @@ html,body{
 }
 
 .indexSecondSection{
-    height:calc(100%);
+    height:50%;
     margin: 0;
-    padding: 0;
-    overflow: auto;    
+    padding: 0; 
     position: relative;
     background-color: white;
     background-repeat: no-repeat;
@@ -47,14 +52,180 @@ html,body{
     background-size: cover;
 }
 
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+/* Auslandsjahr --------------------------------------------- */
+
+.auslandsjahrMain{
+    height:200%;
 }
+
+.auslandsjahrFirstSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-image: url(../Images/OAI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.auslandsjahrSecondSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Studiengang --------------------------------------------- */
+
+.studiengangMain{
+    height:200%;
+}
+
+.studiengangFirstSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-image: url(../Images/OAI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.studiengangSecondSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Events --------------------------------------------- */
+
+.eventsMain{
+    height:200%;
+}
+
+.eventsFirstSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-image: url(../Images/OAI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.eventsSecondSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Impressum --------------------------------------------- */
+
+.impressumMain{
+    height:200%;
+}
+
+.impressumFirstSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-image: url(../Images/OAI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.impressumSecondSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Kontakt --------------------------------------------- */
+
+.kontaktMain{
+    height:200%;
+}
+
+.kontaktFirstSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-image: url(../Images/OAI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.kontaktSecondSection{
+    height:50%;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer ---------------------------------------------- */
+
+.footer{
+    height: 25%;
+}
+
+.footerSection{
+    height: 100%;
+    margin: 0;
+    padding: 0;   
+    position: relative;
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #777;
+    padding: 10px;
+}
+
+
+.footerList li{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    align-items: center;
+}
+
+.footerList a{
+    color: #777;
+}
+
+.footerList a:hover{
+    color: #333;
+}
+
