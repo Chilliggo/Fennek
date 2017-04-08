@@ -1,0 +1,60 @@
+html,body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+
+.navigation{
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.indexMain{
+    height:100%;
+}
+
+.indexFirstSection{
+    height:calc(100%);
+    margin: 0;
+    padding: 0;
+    overflow: auto;    
+    position: relative;
+    background-image: url(../Images/OAI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.indexSecondSection{
+    height:calc(100%);
+    margin: 0;
+    padding: 0;
+    overflow: auto;    
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
