@@ -20,8 +20,10 @@ $(document).ready(function () {
     $(".main").onepage_scroll({
         sectionContainer: "section",
         easing: "ease",
-        animationTime: 500,
+        animationTime: 400,
         pagination: true,
+        loop: false,   
         updateURL: false
     });
 });
+

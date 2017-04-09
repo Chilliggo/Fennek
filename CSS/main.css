@@ -21,6 +21,19 @@ html,body{
   text-align: center;
 }
 
+.placeholder {
+    height: 51px;
+    width: 100%;
+}
+
+.sectionContainer {
+    height: 100%;
+    width: 100%;
+}
+.placeholder2 {
+    height: 20%;
+    width: 100%;
+}
 
 
 
@@ -47,7 +60,7 @@ html,body{
     margin: 0;
     padding: 0; 
     position: relative;
-    background-image: url(../Images/OAI.jpg);
+    background-image: url(../Images/OAI_Grau.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -62,6 +75,12 @@ html,body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.jumbotronIndex{
+    background: transparent;
+    color: white;
+    text-align: right;
 }
 
 
