@@ -25,6 +25,9 @@ html,body{
 
 
 /* Index --------------------------------------------- */
+.main{
+    height:100%;
+}
 
 .indexMain{
     height:200%;
@@ -39,7 +42,8 @@ html,body{
 }
 
 .indexFirstSection{
-    height:50%;
+    height:100%;
+    width:100%;
     margin: 0;
     padding: 0; 
     position: relative;
@@ -50,7 +54,8 @@ html,body{
 }
 
 .indexSecondSection{
-    height:50%;
+    height:100%;
+    width:100%;
     margin: 0;
     padding: 0; 
     position: relative;
@@ -58,6 +63,7 @@ html,body{
     background-position: center;
     background-size: cover;
 }
+
 
 
 /* Auslandsjahr --------------------------------------------- */
@@ -203,7 +209,8 @@ html,body{
 /* Footer ---------------------------------------------- */
 
 .footer{
-    height: 25%;
+    height: 20%;
+    width:100%;
 }
 
 .footerSection{
