@@ -30,6 +30,14 @@ html,body{
     height:200%;
 }
 
+[data-slides] {
+    background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transition: background-image 1s linear;
+}
+
 .indexFirstSection{
     height:50%;
     margin: 0;
@@ -46,7 +54,6 @@ html,body{
     margin: 0;
     padding: 0; 
     position: relative;
-    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

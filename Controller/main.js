@@ -1,0 +1,1 @@
+!function(t){"use strict";var a=t("[data-slides]"),ni=0,s=a.data("slides"),e=s.length,n=function(){if(ni>=a.length){ni=0}else{ni++};a.css("background-image",'url("'+s[ni]+'")').show(0,function(){setTimeout(n,5e3)})};n()}(jQuery);
